@@ -66,31 +66,31 @@ btn6.grid(column=1, row=8)
 def clicked8():
 
     messagebox.showinfo('Definition', 'O(2N) denotes an algorithm whose growth doubles with each addition to the input data set. ')
-btn7 = Button(window, text="Exponential Time:O(2n)", fg="green", command=clicked8)
+btn7 = (window, text="Exponential Time:O(2n)", fg="green", command=clicked8)
 btn7.grid(column=1, row=9)
 
 
 
 
-def clicked9():
+def clicked9()
 
     messagebox.showinfo('Definition', 'We need the notation for the lower bound i.e the best-case scenario. A capital omega Ω notation is used in this case. ')
-btn8 = Button(window, text="Definition of big Omega", fg="green", command=clicked9)
+btn8 = (window, text="Definition of big Omega", fg="green", command=clicked9)
 btn8.grid(column=1, row=10)
 
 
 
 
-def clicked10():
+def clicked10()
 
     messagebox.showinfo('Definition', 'This is used to measure average-case complexity of a particular algorithm, i.e.to find the upper and lower bounds. ')
-btn9 = Button(window, text="Definition of big Theta", fg="green", command=clicked10)
+btn9 = (window, text="Definition of big Theta", fg="green", command=clicked10)
 btn9.grid(column=1, row=11)
 
 
 
 
-def clicked11():
+def clicked11()
 
     messagebox.showinfo('Definition', 'The term analysis of algorithms is used to describe approaches to the study of the performance of algorithms.')
 btn10 = Button(window, text="Analysis of Algorithms", fg="green", command=clicked11)
@@ -99,7 +99,7 @@ btn10.grid(column=1, row=12)
 
 
 
-def clicked12():
+def clicked12()
 
     messagebox.showinfo('Definition', 'Consider a dynamic array stack. In this model push() will double up the array size if there is no enough space. Since copying arrays cannot be performed in constant time, we say that push is also cannot be done in constant time. In this section, we will show that push() takes amortized constant time.')
 btn11 = Button(window, text="Amortized Time Complexity", fg="green", command=clicked12)
